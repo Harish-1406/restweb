@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0;
+                border: 0;
+                background: white;
+            }
+            header{
+                text-align: center;
+                font-size: 10px;
+                background-color: wheat ;
+            }
+            header img{
+                width: 125px;
+            }
+            nav{
+                background-color: black;
+                text-align: center;
+                color: rgba(128, 128, 128, 0.911);
+                padding: 10px;
+            }
+            .admin-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 30px;
+                padding: 50px;
+            }
+            .admin-member {
+                background-color: #fff;
+                padding: 20px;
+                text-align: center;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            .admin-member img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-bottom: 20px;
+            }
+            .admin-member {
+                background-color: #fff;
+                padding: 20px;
+                text-align: center;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border: 3px solid #f1c40f;  /* Adding a yellow border */
+            }
+            .admin-member h3 {
+                font-family: 'Poppins', sans-serif;
+                color: #2c3e50;
+                margin-bottom: 10px;
+            }
+            .admin-member p {
+                font-size: 1.1em;
+                color: #7f8c8d;
+            }
+            footer{
+                    background-color: black;
+                    color: white;
+                    text-align: center;
+                    padding: 10px;
+                }
+        </style>
+    </head>
+<body>
+    <header class="logo">
+    <img src="logo.png">
+    <h1>AB's - Absolute Barbecue</h1>
+    </header>
+    <nav nav navbar-default>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="admin.html">Administration</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <main>
+        <section class="menu-section">
+            <h2 style="text-align: center; background-color: black; color: white; padding: 20px;">Administration Team</h2>
+            <div class="admin-container">
+                <div class="admin-member">
+                    <img src="download.jpeg" alt="Person 1">
+                    <h3>Harish</h3>
+                    <p>CEO & Founder</p>
+                </div>
+               
+                <div class="admin-member">
+                    <img src="Ass.jpeg" alt="Person 2">
+                    <h3>Samuel Green
+                    </h3>
+                    <p>Assistant Manager</p>
+                </div>
+                
+                <div class="admin-member">
+                    <img src="finan.jpeg" alt="Person 3">
+                    <h3>Josh</h3>
+                    <p>Financial Manager</p>
+                </div>
+                
+                <div class="admin-member">
+                    <img src="damu.webp" alt="Person 4">
+                    <h3>Damu</h3>
+                </div>
+               
+                <div class="admin-member">
+                    <img src="bhat.webp" alt="Person 5">
+                    <h3>Vekatesh Bhat</h3>
+                    <p>Executive Chef</p>
+                </div>
+                
+                <div class="admin-member">
+                    <img src="rang.jpeg" alt="Person 6">
+                    <h3>Rangaraj</h3>
+                    <p>Associate Chef</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024 Absolute Barbeque Pvt Ltd. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
